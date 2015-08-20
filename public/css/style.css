@@ -1,0 +1,55 @@
+*{
+    border:none;
+    border-radius: 0;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    -webkit-appearance:none !important;
+}
+
+body{
+    background: whitesmoke;
+    font-size:1.35em;
+    color:#4a4a4a;
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+}
+#form-wrapper{
+    background-color: #E8E8E8;
+    margin:200px auto;
+    padding:16px;
+    width:340px;
+}
+#email-error{
+    background-color: coral;
+    border-bottom: 2px solid orangered;
+    float:left;
+    color:whitesmoke;
+    font-weight:bold;
+    margin-bottom:16px;
+    padding:16px 0;
+    text-align:center;
+    width:100%;
+}
+.clear-float{clear:both;}
+input{
+    background-color: white;
+    border-bottom:2px solid #CACACA;
+    float:left;
+    font-size:.85em;
+    width:100%;
+    padding:16px 0;
+    text-align:center;
+}
+input:disabled{
+    background-color: whitesmoke;
+    cursor: not-allowed;
+}
+
+input[type="email"]{margin-top:16px;}
+input[type="submit"]{
+    background-color: #129FEA;
+    border-bottom:2px solid #0086b3;
+    color:whitesmoke;
+    font-weight:bold;
+    margin-top:16px;
+}
